@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('layouts.main')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@section('title', 'HDC Events')
 
-    <title>Laravel</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <script src="../js/scripts.js"></script>
-</head>
+@section('content')
 
-<body>
-    <h1>Title</h1>]
-    <img src="../img/hdtstage.jpg" alt="Banner">
-</body>
+<h1>Hello World!</h1>
 
-</html>
+@endsection
