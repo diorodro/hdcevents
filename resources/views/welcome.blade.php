@@ -4,6 +4,7 @@
 
 @section('content')
 
-<h1>Hello World!</h1>
+<h1>Bem-vindo</h1>
+<img src="../public/img/hdtstage.jpg" alt="plano de fundo">
 
 @endsection
