@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="collapse navbar-collapse" id="navbar"></div>
       <a href="/" id="navbar-brand">
-        <img src="../public/img/icon-hd.png" alt="icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/780/780575.png" alt="icon" class="ico">
       </a>
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -42,6 +42,11 @@
   </header>
 
   @yield('content')
+
+  <main>
+    <h5>Invista em você!</h5>
+  </main>
+
   <footer>
     <p> HDC Events &copy; 2024</p>
   </footer>
